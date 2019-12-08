@@ -3,6 +3,12 @@
 
 <head>
 	<link rel="stylesheet" href="indexCSS.css">
+	<script type="text/javascript">
+		function goToURL(val)
+		{
+			location.href=val;
+		}
+	</script>
 
 </head>
 
@@ -14,10 +20,13 @@
 		<h3 title="name"> <font size="+4">Derek Yee </font></h3>
 		<br>
 		<div class="buttons">
-			<button>Resume</button>
-			<button>GitHub</button>
+			<button type="button" onclick="javascript:goToURL('./Yee_Derek_Resume_2019.pdf')">Resume</button>
+			<button type="button" onclick="javascript:goToURL('https://www.github.com/derekyee97')">GitHub</button>
 			<button>LeetCode</button>
 			<button>HackerRank</button>
+
+
+
 		</div>
 		
 	</div>
