@@ -10,6 +10,9 @@
 			location.href=val;
 		}
 	</script>
+	<!-- using IonicaBizau's implementation for github calendar --> 
+	<script	src="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.min.js">
+	</script>
 
 </head>
 
@@ -77,13 +80,26 @@
 					</li>
 				</ul>	
 		</div>
+
 		<div id="Projects">
 			<h3> Projects: </h3><br>
 
-	</div>
-		
+		</div>
+
+		<div id="contribution github">
+			<h2>GitHub Contribution Calendar: </h2>
+			<br>
+			<div class="calendar">
+
+			</div>
+			<script> new GitHubCalendar(".calendar","derekyee97");</script>
+		</div>
 	</div>
 	
 
 </body>
 </html> 
+
+
+
+
