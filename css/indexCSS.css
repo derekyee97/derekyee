@@ -7,8 +7,8 @@
 }
 
 .buttons button {
-  background-color: #000000; /* Green background */
-  border: 1px #6c96fe; /* Green border */
+  background-color: #000000; 
+  border: 1px #6c96fe; 
   color: white; /* White text */
   padding: 10px 24px; /* Some padding */
   cursor: pointer; /* Pointer/hand icon */
