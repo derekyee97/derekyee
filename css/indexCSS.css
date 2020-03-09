@@ -5,7 +5,12 @@
 	flex:33.33%;
 	
 }
+.contactsContainer{
+    position: absolute;
+    top:0px;
+    right: 0px;
 
+}
 .buttons button {
   background-color: #000000; 
   border: 1px #6c96fe; 
