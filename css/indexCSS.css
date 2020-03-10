@@ -1,7 +1,8 @@
 .row{
 	display:flex;
 }
-.column{
+.column
+{
 	flex:33.33%;
 	
 }
